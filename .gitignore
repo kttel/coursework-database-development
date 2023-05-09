@@ -143,6 +143,9 @@ venv.bak/
 .dmypy.json
 dmypy.json
 
+# react
+node_modules/
+
 # Pyre type checker
 .pyre/
 
@@ -151,6 +154,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Django
+__pycache__/
+migrations/
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
